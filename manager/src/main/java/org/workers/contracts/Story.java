@@ -17,6 +17,11 @@ public interface Story {
 	public Long getStoryId();
 
 	/**
+	 * This method will set storyId
+	 */
+	public void setStoryId(Long storyId);
+
+	/**
 	 * This method will return story name.
 	 * 
 	 * @return
